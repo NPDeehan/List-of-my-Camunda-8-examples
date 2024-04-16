@@ -2,6 +2,14 @@
 
 This is a list of examples i've made using Camunda 8
 
+## Orchestrating a Diverse set of Endpoints
+
+See how forms, scripts and external services are all implemented together in this example.
+
+[Source Code Here](https://github.com/NPDeehan/Camunda-Endpoint-Diversity-Example)
+
+![diverse](https://github.com/NPDeehan/Camunda-Endpoint-Diversity-Example/blob/main/img/CamundaStocks.svg?raw=true)
+
 ## Approval Process with Camunda Forms
 
 This example show how you can pass data between task in a process and display them in Camunda forms
@@ -17,6 +25,13 @@ This shows how to go send and receive Kafka messages as part of a Camunda BPMN p
 [Source Code Here](https://github.com/NPDeehan/KafkaConnectorExample)
 
 ![kafkaProcess](https://github.com/NPDeehan/KafkaConnectorExample/blob/main/img/kafkaStockExample.png?raw=true)
+
+## Using Compensation Events
+
+If you need to undo something that's happened asyncronously or something that's happened in an external system this is BPMN symbol of for you. 
+
+[Source Code is Here](https://github.com/NPDeehan/Compensation-Example-Camunda8)
+![processModel](https://github.com/NPDeehan/Compensation-Example-Camunda8/blob/main/img/compensation.png?raw=true)
 
 ## Starting a Process with a webhook
 
